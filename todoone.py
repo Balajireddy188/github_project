@@ -87,6 +87,8 @@ def main():
             try:
                 index = int(input("Enter task number to delete: "))
                 delete_task(index)
+
+                #valueeroor
             except ValueError:
                 print("Please enter a valid number.")
         elif choice == "5":
